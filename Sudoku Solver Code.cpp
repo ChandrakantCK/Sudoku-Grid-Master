@@ -1,4 +1,4 @@
-/*  Rajat Rathi  */
+/*  Chandrakant Kumar  */
 #include<bits/stdc++.h>
 using namespace std;
 
