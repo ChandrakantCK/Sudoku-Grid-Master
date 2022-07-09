@@ -1,1 +1,5 @@
 # Sudoku-Grid-Master
+Sudoku solver using backtracking algorithm in C++
+
+# Algorithm Overview:
+The Brute Force Search algorithm visits the empty cells in some order, sequentially filling in digits or backtracking if the number is found to be invalid. The programme would solve a puzzle by placing the digit "1" in the first cell and determining whether or not it is permitted to be there. If there are no violations (checking row, column, and box constraints), the algorithm moves on to the next cell and inserts a "1" into it. If it is discovered that the "1" is not permitted when checking for violations, the value is advanced to "2." If the algorithm discovers a cell where none of the 9 digits are permitted, it leaves that cell blank and returns to the previous cell; this is known as backtracking. Backtracking is a depth-first search (as opposed to a breadth-first search) because it will fully explore one branch to a possible solution before moving on to another. That cell's value is then increased by one. This process is repeated until the allowed value in the final (81st) cell is found.
