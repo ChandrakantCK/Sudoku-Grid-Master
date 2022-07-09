@@ -1,4 +1,4 @@
-/*  Rajat Rathi  */
+/*  Chandrakant Kumar */
 /***********************************Backtracking Solution********************************/
 #include<bits/stdc++.h>
 using namespace std;
